@@ -1,31 +1,31 @@
 #!/bin/sh
 
-echo '=== [ Dart ] =================================================================='
+echo '## Dart'
 echo '```'
 (cd dart && dart main.dart)
 echo '```'
 
-echo '=== [ Java ] =================================================================='
+echo '## Java'
 echo '```'
 (cd java && rtx x java -- gradle run -q)
 echo '```'
 
-echo '=== [ JavaScript ] ============================================================'
+echo '## JavaScript'
 echo '```'
 (cd js && node main.js)
 echo '```'
 
-echo '=== [ Python ] ================================================================'
+echo '## Python'
 echo '```'
 (cd python && python main.py)
 echo '```'
 
-echo '=== [ Rust ] =================================================================='
+echo '## Rust'
 echo '```'
 (cd rust && cargo run -q)
 echo '```'
 
-echo '=== [ Go ] ===================================================================='
+echo '## Go'
 echo '```'
 (cd go && go run main.go)
 echo '```'

@@ -9,7 +9,7 @@ const target = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. 
 +`A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. One day, he discovered a mysterious 🕳️, which lead to a magical 🌌.  In the 🪐 of Celebra, 🦊 met a friendly 🌈🦄 named Sparkle. They had extraordinary adventures together, befriending a 🧚, who shared so many 🏴‍☠️ 📚 that they never ever lacked for reading material!`
 ```
 
-=== [ Dart ] ==================================================================
+## Dart
 ```
 @@ -142,11 +142,10 @@
  Cele
@@ -22,7 +22,7 @@ const target = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. 
  lacked f
 
 ```
-=== [ Java ] ==================================================================
+## Java
 ```
 @@ -142,11 +142,10 @@
  Cele
@@ -35,7 +35,7 @@ const target = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. 
  lacked f
 
 ```
-=== [ JavaScript ] ============================================================
+## JavaScript
 ```
 @@ -142,12 +142,11 @@
  Cele
@@ -48,7 +48,7 @@ const target = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. 
  lacked f
 
 ```
-=== [ Python ] ================================================================
+## Python
 ```
 @@ -136,11 +136,10 @@
  Cele
@@ -61,7 +61,7 @@ const target = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. 
  lacked f
 
 ```
-=== [ Rust ] ==================================================================
+## Rust
 ```
 @@ -136,11 +136,10 @@
  Cele
@@ -74,7 +74,7 @@ const target = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. 
  lacked f
 
 ```
-=== [ Go ] ====================================================================
+## Go
 ```
 @@ -156,11 +156,10 @@
  Cele
