@@ -1,42 +1,89 @@
+```js
+const source = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. One day, he discovered a mysterious 🕳️, which lead to a magical 🌌.  In the 🪐 of Celestia, 🦊 met a friendly 🌈🦄 named Sparkle. They had extraordinary adventures together, befriending a 🧚, who shared so many 🏴‍☠️ 📚 that they never lacked for reading material!`
+
+const target = `A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. One day, he discovered a mysterious 🕳️, which lead to a magical 🌌.  In the 🪐 of Celebra, 🦊 met a friendly 🌈🦄 named Sparkle. They had extraordinary adventures together, befriending a 🧚, who shared so many 🏴‍☠️ 📚 that they never ever lacked for reading material!`
+```
+
+```diff
+-A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. One day, he discovered a mysterious 🕳️, which lead to a magical 🌌.  In the 🪐 of Celestia, 🦊 met a friendly 🌈🦄 named Sparkle. They had extraordinary adventures together, befriending a 🧚, who shared so many 🏴‍☠️ 📚 that they never lacked for reading material!`
++`A curious 🦊 named Felix lived in the 🪄🌲 of Willowwood. One day, he discovered a mysterious 🕳️, which lead to a magical 🌌.  In the 🪐 of Celebra, 🦊 met a friendly 🌈🦄 named Sparkle. They had extraordinary adventures together, befriending a 🧚, who shared so many 🏴‍☠️ 📚 that they never ever lacked for reading material!`
+```
+
 === [ Dart ] ==================================================================
 ```
-@@ -354,8 +354,16 @@
- %E3%83%8C%E3%83%AA%E6%B8%88%E6%AF%8E%E9%A4%8A%E3%81%9C%E3%81%BC%E3%80%82
-+. %E6%96%87%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%80%82
+@@ -142,11 +142,10 @@
+ Cele
+-sti
++br
+ a, %EF%BF%BD
+@@ -287,16 +287,21 @@
+ y never 
++ever 
+ lacked f
 
 ```
 === [ Java ] ==================================================================
 ```
-@@ -354,8 +354,16 @@
- %E3%83%8C%E3%83%AA%E6%B8%88%E6%AF%8E%E9%A4%8A%E3%81%9C%E3%81%BC%E3%80%82
-+. %E6%96%87%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%80%82
+@@ -142,11 +142,10 @@
+ Cele
+-sti
++br
+ a, ?
+@@ -287,16 +287,21 @@
+ y never 
++ever 
+ lacked f
 
 ```
 === [ JavaScript ] ============================================================
 ```
-@@ -354,8 +354,16 @@
- %E3%83%8C%E3%83%AA%E6%B8%88%E6%AF%8E%E9%A4%8A%E3%81%9C%E3%81%BC%E3%80%82
-+. %E6%96%87%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%80%82
+@@ -142,12 +142,11 @@
+ Cele
+-sti
++br
+ a, %F0%9F%A6%8A
+@@ -287,16 +287,21 @@
+ y never 
++ever 
+ lacked f
 
 ```
 === [ Python ] ================================================================
 ```
-@@ -354,8 +354,16 @@
- %E3%83%8C%E3%83%AA%E6%B8%88%E6%AF%8E%E9%A4%8A%E3%81%9C%E3%81%BC%E3%80%82
-+. %E6%96%87%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%80%82
+@@ -136,11 +136,10 @@
+ Cele
+-sti
++br
+ a, %F0%9F%A6%8A
+@@ -275,16 +275,21 @@
+ y never 
++ever 
+ lacked f
 
 ```
 === [ Rust ] ==================================================================
 ```
-@@ -354,8 +354,16 @@
- %E3%83%8C%E3%83%AA%E6%B8%88%E6%AF%8E%E9%A4%8A%E3%81%9C%E3%81%BC%E3%80%82
-+. %E6%96%87%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%80%82
+@@ -136,11 +136,10 @@
+ Cele
+-sti
++br
+ a, %F0%9F%A6%8A
+@@ -275,16 +275,21 @@
+ y never 
++ever 
+ lacked f
 
 ```
 === [ Go ] ====================================================================
 ```
-@@ -1048,8 +1048,28 @@
- %81%9C%E3%81%BC%E3%80%82
-+. %E6%96%87%E3%81%AE%E7%B5%82%E3%82%8F%E3%82%8A%E3%80%82
+@@ -156,11 +156,10 @@
+ Cele
+-sti
++br
+ a, %F0
+@@ -319,16 +319,21 @@
+ y never 
++ever 
+ lacked f
 
 ```
